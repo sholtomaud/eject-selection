@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Eject selection",
+        "command": "eject:ejectSelection"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Eject",
+          "submenu": [
+            {
+              "label": "Selection",
+              "command": "eject:ejectSelection"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

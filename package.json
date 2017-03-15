@@ -1,0 +1,18 @@
+{
+  "name": "eject-selection",
+  "main": "./lib/eject",
+  "version": "0.0.0",
+  "description": "Eject selected text to new file in same directory",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "eject:ejectSelection"
+  },
+  "repository": "https://github.com/shotlom/eject-selection.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
